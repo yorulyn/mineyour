@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #DEAF84;
+}
+
+.main-header {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.intro-paragraph {
+  font-size: 30px;
+  color: #333;
+  margin: 10px 0;
+  position: relative;
+  text-align: center;
+  
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #97704F;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+h1::before,
+h1::after {
+  content: "★";
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 36px;
+  color: 2F1B12;
+}
+
+p::before,
+p::after {
+  content: "“";
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: 2F1B12;
+}
+button::before,
+button::after {
+  content: "☞";
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: 2F1B12;
+}
